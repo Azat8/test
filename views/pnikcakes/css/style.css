@@ -1,0 +1,322 @@
+
+
+.footer{
+	height:50px;
+	width:100%;
+	background:#F207A4;
+}
+body{
+	margin:0;
+	padding:0;
+	background:#000000;
+	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:12px;
+	
+}
+h2{
+	padding:5px 13px;
+	color:#999994;
+}
+h1{
+	font-size:19px;
+	margin:0;
+}
+
+.container-fluid{
+	padding:0;	
+}
+.header{
+	background:#F207A4;
+	height:100%;
+	position:fixed;
+	
+	text-align:right;
+}
+.content{
+	background: #000000;
+	padding:0;
+}
+
+.logo {
+    width: 25.25em;
+    float: right;
+    padding: 18px 0 0 5px;
+}
+.form-group input{
+	height:43px;
+	background:#000000;
+	border:1px solid #AA006E;
+	
+}
+.form-group textarea{
+	border-radius:7px;
+	margin-top:20px;
+	width:100%;
+	font-size:17px;
+	font-family:inherit;
+	background:#000000;
+	border:1px solid #AA006E;
+	padding-left:10px;
+	
+}
+.btn-default{
+	color:#999994
+}
+.sub{
+	margin-top:10px;
+	
+}
+	.logo-area{
+		
+		width:100%;
+		
+	}
+	#logo{
+		width:19em;
+		margin:10px auto
+	}
+	.mobile-contact-info{
+		width:100%;
+		text-align:center;
+		color:#FFFFFF;
+		font-size:15px;
+	}
+	
+
+.receipt{
+	border-bottom:2px solid #AA006E;
+	padding:0;
+	margin:15px 0 0 10px;
+
+}
+
+.receipt img{
+	    float: left;
+    margin: 0 10px 10px 0;
+    border: 1px solid #AA006E;
+    padding: 5px;
+	
+	
+
+}
+
+.social {
+    opacity: 0.5;
+	    float: left;
+    padding: 5px 20px 0 0;
+    margin-top: -150px;
+}
+.social ul{
+	margin:0;
+	padding:0;
+	list-style:none
+}
+.social ul li {
+	list-style:none;
+}
+
+.social  img{
+	padding:3px 0;
+	margin-left:-20px;
+}
+.social-mobile{
+	
+	text-align:center;
+	
+}
+.social-mobile ul li{
+	list-style:none;
+		
+}
+.social-mobile ul li {
+	
+		
+}
+.social-mobile-iner{
+	margin:auto;
+}
+
+
+.receipt a{
+	color:#859994
+}
+.about{
+	font-size:16px;
+	text-align:justify;
+}
+.about img{
+	   float: left;
+    margin: 0 10px 10px 0;
+    border: 1px solid #AA006E;
+    padding: 5px;
+}
+.brands{
+	padding:5px;
+}
+.pr{
+	margin:0;
+}
+.products{
+	    padding: 1.5px;
+}
+@media screen and (max-width: 480px){
+	.brands{
+		width:100%;
+	}
+	.products{
+		width:100%;
+	}
+}
+	
+/*767 pixelic barcr*/
+@media screen and (min-width: 767px){
+	
+	.contact_info_mobile{
+	    float: none;
+    color: #b2b2b2;
+    margin-top: -11px;
+}
+	
+	.logo-area,.mobile-contact-info{
+	display:none;
+}
+	.navbar-inverse ul>li>a{
+    color: #FFFFFF;
+    font-size: 15px;
+    text-transform: uppercase;
+	line-height:0;	
+}
+.navbar-inverse ul>li>a:hover{
+	text-decoration:underline;
+}
+	
+.navbar-inverse{
+	background: none;
+	border:none;
+	
+
+}
+.navbar-nav>li{
+	float:none;
+}
+.navbar-nav{
+	float:right;
+}
+.contact_info {
+    text-align: right;
+    padding: 6px 0px 0 0;
+    font-size: 17px;
+    font-family: myfont;
+	color:#FFFFFF;
+}
+.copyright {
+    padding: 10px 0 0 5px;
+    text-align: right;
+    margin-top: 50px;
+	color:#FFFFFF;
+}
+.receipt{
+	
+ } 
+
+.receipt p{
+	font-size:14px;
+	
+}
+.footer{
+	display:none;
+	position:absolute;
+	top:0;
+}
+#demo{
+	display:none;
+}
+
+	
+}
+/*767 pixelic cacr*/
+@media  (max-width: 767px){
+	.contact_info_mobile{
+		 float: none;
+    color: aliceblue;
+    margin:10px 10px;
+	}
+	
+	.social{
+		display:none;
+	}
+	
+.header{
+	position:unset;
+	height:auto;
+}
+.logo{
+	display:none;
+}
+.contact_info{
+	display:none;
+}
+.copyright{
+	display:none;
+}
+.navbar-inverse{
+	background:none;
+	border:none;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	background:none;
+	 
+}
+.navbar-nav>li{
+	
+}
+.navbar-nav {
+	text-align:left;
+}
+.navbar-nav>li>a {
+	color:#FFFFFF;
+	font-size:14px;
+	
+}
+
+.receipt p{
+	font-size:14px;
+}
+.receipt {
+	padding:5px;
+	
+
+}
+.footer{
+	display:block;
+	
+	
+	
+		
+}
+
+.ws_gestures{
+	display:none;
+}
+
+	
+}
+@media screen and (min-width: 1200px){
+	.navbar-inverse{
+		margin-top:200px;
+	}
+	
+}
+@media screen and (min-width: 3200px){
+	.navbar-inverse{
+		margin-top:400px;
+	}
+	
+}
+
+
